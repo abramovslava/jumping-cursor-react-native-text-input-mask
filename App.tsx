@@ -19,6 +19,8 @@ const App = () => {
             onChangeText={onChangeText}
             mask={'+1 ([000]) [000] [00] [00]'}
             style={styles.input}
+            autocomplete={false}
+            autoskip={false}
           />
         </View>
       </ScrollView>
